@@ -10,14 +10,21 @@ def gather_input():
     for i in range(num_candidates):
         name = input(f"Enter the name of candidate {i+1}: ")
         candidate_names.append(name)
-    
+
     num_seats = int(input("Enter the number of seats: "))
-    scores_input = input("Enter all the scores separated by space (for all voters, every {} numbers represents one voter's ballot): ".format(num_candidates))
-    scores_list = [int(score) for score in scores_input.split()]
-    if len(scores_list) % num_candidates != 0:
-        raise ValueError("The total number of scores entered does not correctly divide into equal ballots for the number of candidates.")
-    num_voters = len(scores_list) // num_candidates
-    scores_matrix = np.array(scores_list).reshape(num_voters, num_candidates)
+
+    scores_input = input("Enter all the scores separated by space (for all voters, every group of {} numbers without spaces represents one voter's ballot. Separate each separate ballot with a space): ".format(num_candidates))
+    scores_list = scores_input.split()
+
+    num_voters = len(scores_list)
+    scores_matrix = np.zeros((num_voters, num_candidates), dtype=int)
+
+    for i in range(num_voters):
+        ballot = scores_list[i]
+        if len(ballot) != num_candidates:
+            raise ValueError(f"Invalid ballot: {ballot}. Each ballot should have {num_candidates} scores.")
+        scores_matrix[i] = [int(score) for score in ballot]
+
     return pd.DataFrame(scores_matrix, columns=candidate_names), num_seats
 
 def allocated_score(ballots, seats):
