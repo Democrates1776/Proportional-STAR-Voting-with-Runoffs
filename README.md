@@ -11,7 +11,6 @@ Credits: I used the algorithm used for regular Proportional STAR / Allocated Sco
 
  
 Tennessee Example https://en.wikipedia.org/wiki/STAR_voting#Example
-
                         City Choice
          Voter from                          Memphis                Nashville                Chattanooga                Knoxville                Total
                         Memphis 	            210 (42 × 5) 	         0 (26 × 0) 	             0 (15 × 0) 	               0 (17 × 0) 	             210
