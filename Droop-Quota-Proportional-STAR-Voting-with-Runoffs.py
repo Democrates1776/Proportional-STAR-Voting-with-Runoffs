@@ -1,3 +1,4 @@
+# Online Python compiler (interpreter) to run Python online.
 import pandas as pd
 import numpy as np
  
@@ -17,6 +18,7 @@ def gather_input():
     scores_list = scores_input.split()
 
     num_voters = len(scores_list)
+    print("\nThere are ", num_voters, " voters.")
     scores_matrix = np.zeros((num_voters, num_candidates), dtype=int)
 
     for i in range(num_voters):
@@ -36,11 +38,10 @@ def allocated_score(ballots, seats):
     round_num = 1
 
     while len(winner_list) < seats:
-        print(f"\nRound {round_num}:")
+        print(f"\nRound {round_num}:\n\nScores:")
         weighted_scores = ballots.multiply(ballot_weight, axis="index")
         total_scores = weighted_scores.sum()
 
-        print("Scores of the candidates this round:")
         for candidate, score in total_scores.sort_values(ascending=False).items():
             formatted_score = "{:.4f}".format(score).rstrip('0').rstrip('.')
             print(f"{candidate}: {formatted_score}")
