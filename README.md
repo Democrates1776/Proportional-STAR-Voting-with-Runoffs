@@ -12,12 +12,12 @@ Credits: I used the algorithm used for regular Proportional STAR / Allocated Sco
  
 Tennessee Example https://en.wikipedia.org/wiki/STAR_voting#Example
 
-                      City Choice
-Voter from    	                              Memphis                Nashville                Chattanooga                Knoxville                Total
-                        Memphis 	            210 (42 × 5) 	         0 (26 × 0) 	            0 (15 × 0) 	               0 (17 × 0) 	            210
-                        Nashville 	          84 (42 × 2) 	         130 (26 × 5) 	          45 (15 × 3) 	             34 (17 × 2) 	            293
-                        Chattanooga 	        42 (42 × 1) 	         52 (26 × 2) 	            75 (15 × 5) 	             68 (17 × 4) 	            237
-                        Knoxville 	          0 (42 × 0) 	           26 (26 × 1) 	            45 (15 × 3) 	             85 (17 × 5) 	            156
+                        City Choice
+         Voter from                          Memphis                Nashville                Chattanooga                Knoxville                Total
+                        Memphis 	            210 (42 × 5) 	         0 (26 × 0) 	             0 (15 × 0) 	               0 (17 × 0) 	             210
+                        Nashville 	          84 (42 × 2) 	          130 (26 × 5) 	           45 (15 × 3) 	              34 (17 × 2) 	            293
+                        Chattanooga 	        42 (42 × 1) 	          52 (26 × 2) 	            75 (15 × 5) 	              68 (17 × 4) 	            237
+                        Knoxville 	          0 (42 × 0) 	           26 (26 × 1) 	            45 (15 × 3) 	              85 (17 × 5) 	            156
 
 
 
@@ -31,7 +31,7 @@ Enter the name of candidate 2: Nashville
 Enter the name of candidate 3: Chattanooga
 Enter the name of candidate 4: Knoxville
 Enter the number of seats: 3
-Enter all the scores separated by space (for all voters, every 4 numbers represents one voter's ballot): 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 5 2 1 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 3 5 3 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5 0 2 4 5
+Enter all the scores separated by space (for all voters, every 4 numbers represents one voter's ballot): 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245
 
 Round 1:
 Scores of the candidates this round:
