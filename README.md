@@ -23,7 +23,7 @@ Tennessee Example https://en.wikipedia.org/wiki/STAR_voting#Example
 
 
 
-Demo:
+Demo with Droop Quota:
 
 Enter the number of candidates: 4
 Enter the name of candidate 1: Memphis
