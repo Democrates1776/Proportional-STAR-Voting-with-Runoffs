@@ -1,4 +1,3 @@
-# Online Python compiler (interpreter) to run Python online.
 import pandas as pd
 import numpy as np
  
