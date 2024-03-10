@@ -11,6 +11,7 @@ Credits: I used the algorithm used for regular Proportional STAR / Allocated Sco
 
  
 Tennessee Example https://en.wikipedia.org/wiki/STAR_voting#Example
+
 Pretend that instead of voting for a capital they are voting for representatives from these cities.
        
         |            |   City Choice |              |              |               |             |         |
