@@ -32,11 +32,17 @@ Pretend that instead of voting for a capital they are voting for representatives
 Demo with Droop Quota:
 
 Enter the number of candidates: 4
+
 Enter the name of candidate 1: Memphis
+
 Enter the name of candidate 2: Nashville
+
 Enter the name of candidate 3: Chattanooga
+
 Enter the name of candidate 4: Knoxville
+
 Enter the number of seats: 3
+
 Enter all the ballots separated by space with no space within each ballot e.g. 231 215 421: 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245
 
 Round 1:
