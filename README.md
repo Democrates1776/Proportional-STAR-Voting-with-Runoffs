@@ -4,6 +4,8 @@ I thought it was weird regular Proportional STAR Voting didn't have automatic on
 
 Use: Just copy and paste the code into a Python Interpreter, run, and the program will ask you how many candidates are running, what their names are, how many seats can be won, and what the ballot scores are. You can paste the code and run it here: https://www.programiz.com/python-programming/online-compiler/
 
+Random Ballot Creator Use: You can simulate a Proportional STAR Election with random votes. Just copy and paste the code into a Python Interpreter, run it, enter the amount of voters you want and how many candidates you want, and it will spit out a set of ballots with random scores on it from 0 through 5.
+
 Output: The program will output the scores of the candidates each round, how many runoff votes they got, and who the winners are.
 
 Credits: I used the algorithm used for regular Proportional STAR / Allocated Score from https://electowiki.org/wiki/Allocated_Score for the regular allocated score part. I then added an algorithm to count runoff votes.
