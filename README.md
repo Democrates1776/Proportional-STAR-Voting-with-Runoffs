@@ -35,10 +35,10 @@ Pretend that instead of voting for a capital they are voting for representatives
 Demo with Droop Quota:
 
 Enter the number of candidates: 4
-Enter the name of candidate 1: 1
-Enter the name of candidate 2: 2
-Enter the name of candidate 3: 3
-Enter the name of candidate 4: 4
+Enter the name of candidate 1: Memphis
+Enter the name of candidate 2: Nashville
+Enter the name of candidate 3: Chattanooga
+Enter the name of candidate 4: Knoxville
 Enter the number of seats: 3
 Enter all the ballots separated by space with no space within each ballot e.g. 231 215 421: 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 5210 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0521 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0353 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245 0245
 
@@ -47,38 +47,38 @@ There are  100  voters.
 Round 1:
 
 Scores:
-2: 293
-3: 237
-1: 210
-4: 156
+Nashville: 293
+Chattanooga: 237
+Memphis: 210
+Knoxville: 156
 
 Runoff votes:
-2: 68
-3: 32
+Nashville: 68
+Chattanooga: 32
 No preference: 0
 
 Round 2:
 
 Scores:
-1: 210
-3: 185
-4: 130
+Memphis: 210
+Chattanooga: 185
+Knoxville: 130
 
 Runoff votes:
-1: 42
-3: 32
+Memphis: 42
+Chattanooga: 32
 No preference: 0
 
 Round 3:
 
 Scores:
-3: 159
-4: 130
+Chattanooga: 159
+Knoxville: 130
 
 Runoff votes:
-3: 31
-4: 17
+Chattanooga: 31
+Knoxville: 17
 No preference: 0
 
-Winners: ['2', '1', '3']
+Winners: ['Nashville', 'Memphis', 'Chattanooga']
 > 
